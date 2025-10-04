@@ -57,7 +57,7 @@ function handleKeydown(event) {
         </li>
         <li>
           <a href="/mapa" on:click={closeMenu} aria-label="Ir a mapa">
-            Mapa de la Luna
+            Mapa
           </a>
         </li>
         <li>

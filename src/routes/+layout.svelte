@@ -8,4 +8,8 @@
 </svelte:head>
 
 <Header />
+
 <slot />
+<style global>
+  @import '../app.css';
+</style>

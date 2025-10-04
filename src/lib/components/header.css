@@ -1,41 +1,29 @@
 :root {
   --header-height: 60px; /* Altura fija en px para mejor control */
-  --header-bg: #000;
+  --header-bg: transparent;
   --header-text: #ffffff;
-  --header-hover: #0062ff;
+  --header-hover: #687180;
   --header-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   --header-z-index: 2000;
   --transition-speed: 0.3s;
 }
 
-
-/*CONTENEDOR PRINCIPAL DEL HEADER */
 .header-container {
-  /* Posicionamiento fijo */
   position: sticky;
   top: 0;
   left: 0;
   right: 0;
-  
-  /* Dimensiones */
   height: var(--header-height);
   width: 100%;
-  
-  /* Diseño */
   background-color: var(--header-bg);
   backdrop-filter: blur(10px);
-  
-  /* Layout interno */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 clamp(1rem, 4vw, 3rem); /* Padding responsivo */
-  
-  /* Efectos visuales */
+  padding: 0 clamp(1rem, 3vw, 3rem);
+  box-sizing: border-box;
   box-shadow: var(--header-shadow);
   z-index: var(--header-z-index);
-  
-  /* Transiciones suaves */
   transition: all var(--transition-speed) ease;
 }
 
