@@ -1,11 +1,11 @@
 :root {
   --header-height: 60px; /* Altura fija en px para mejor control */
-  --header-bg: transparent;
+  --header-bg: transparent; /* Cambia el fondo a transparente */
   --header-text: #ffffff;
-  --header-hover: #687180;
   --header-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   --header-z-index: 2000;
   --transition-speed: 0.3s;
+  --header-hover: #384449;  /* Asegúrate de definir este color si no existe */
 }
 
 .header-container {
@@ -15,8 +15,8 @@
   right: 0;
   height: var(--header-height);
   width: 100%;
-  background-color: var(--header-bg);
-  backdrop-filter: blur(10px);
+  background-color: var(--header-bg); /* Ya está, pero ahora será transparente */
+  backdrop-filter: blur(0px); /* Opcional: elimina el desenfoque si quieres máxima transparencia */
   display: flex;
   justify-content: space-between;
   align-items: center;
