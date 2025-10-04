@@ -1,2 +1,6 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts"> 
+    import f1 from "../lib/assets/Fondos/Fondo3.png"
+
+</script>
+
+<img src={f1} alt="">
