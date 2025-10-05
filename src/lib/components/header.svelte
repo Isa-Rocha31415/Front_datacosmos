@@ -55,17 +55,22 @@ function handleKeydown(event) {
       <ul class="nav-menu" class:active={isMenuOpen}>
         <li>
           <a href="/manual" on:click={closeMenu} aria-label="Ir a Documentación">
-            Manual de usuario
+            User manual
           </a>
         </li>
         <li>
           <a href="/mapa" on:click={closeMenu} aria-label="Ir a mapa">
-            Mapa
+            Map
           </a>
         </li>
         <li>
           <a href="/acerca" on:click={closeMenu} aria-label="Ir a acerca de la luna">
-            Acerca de la Luna
+            About the Moon
+          </a>
+        </li>
+        <li>
+          <a href="/vr" on:click={closeMenu} aria-label="Ir a acerca de la luna">
+            VR explorer
           </a>
         </li>
       </ul>
