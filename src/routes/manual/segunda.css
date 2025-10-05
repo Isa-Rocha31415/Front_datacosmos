@@ -1,0 +1,16 @@
+
+  .contenedor {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    /* 🔹 Imagen de fondo */
+    background-image: url('../lib/Fondos/Fondo2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }

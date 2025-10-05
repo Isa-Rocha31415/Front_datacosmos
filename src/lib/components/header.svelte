@@ -1,4 +1,4 @@
-<!-- Header.svelte -->
+
 <script>
   import './header.css';
   import { onMount } from 'svelte';
