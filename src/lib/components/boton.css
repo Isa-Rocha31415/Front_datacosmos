@@ -1,0 +1,38 @@
+.nav-button {
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  cursor: pointer;
+  margin: 7px;
+  font-size: 5vw;
+  font-weight: bold;
+  padding: 1.7vw 3vw;
+  border-radius: 40px;
+  width: 100%;
+  min-width: 25vw;
+  max-width: 25vw;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.blue { 
+  background-color: black; 
+  color: white; 
+}
+
+.blue:hover { 
+  background-color: #555557; 
+  transform: translateY(-2px);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

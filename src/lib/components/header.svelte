@@ -1,5 +1,5 @@
-<!-- Header.svelte -->
 <script>
+  import icon from '$lib/assets/icon.png';
   import './header.css';
   import { onMount } from 'svelte';
   
@@ -46,7 +46,10 @@ function handleKeydown(event) {
 
 <header>
   <div class="header-container" class:scrolled={isScrolled}>
-    <a href="/" class="logo" on:click={closeMenu}>LunaSearch</a>
+    <a href="/" class="logo" on:click={closeMenu}>
+      <img src={icon} alt="Logo" style="height: 2rem; vertical-align: middle; margin-right: 0.5rem;" />
+      LunaSearch
+    </a>
     
     <nav class="nav">
       <ul class="nav-menu" class:active={isMenuOpen}>
