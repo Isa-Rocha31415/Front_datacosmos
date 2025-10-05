@@ -2,7 +2,7 @@
 
 <style>
     .pagina-fondo {
-        background-image: url("/Fondos/lunapagina2.jpg");
+        background-image: url("../lib/assets/Fondos/doslunas.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
