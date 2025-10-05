@@ -13,6 +13,7 @@
     <div class="right-block">
         <div class="luna-container">
             <img src={luna} alt="luna full" class="luna" />
+            
         </div>
     </div>
 </div>
