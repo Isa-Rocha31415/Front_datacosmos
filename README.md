@@ -1,40 +1,55 @@
-# sv
+# LunaSearchDataCosmos
+**Dive into the Moon's data**
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+### Challenge: *Embiggen Your Eyes!*
 
-## Creating a project
+## Overview
+LunaSearchDataCosmos is a web platform designed to make NASA’s lunar data accessible, visual, and interactive. The goal is to transform complex datasets into meaningful and engaging experiences that encourage users to explore the Moon in an educational and immersive way.
 
-If you're seeing this, you've probably already done this step. Congrats!
+Through data visualization, interactive tools, and immersive design, the platform helps users uncover patterns, insights, and stories hidden within lunar data.
 
-```sh
-# create a new project in the current directory
-npx sv create
+## Problem
+Accessing and understanding NASA’s lunar datasets can be challenging for the public and even for researchers. Traditional data formats often lack interactivity and engagement, limiting their educational impact.
 
-# create a new project in my-app
-npx sv create my-app
-```
+## Solution
+LunaSearchDataCosmos provides an intuitive web interface that visualizes lunar data in a way that is **educational, interactive, and visually captivating**. The project combines interactive 3D exploration, data-driven storytelling, and advanced AI technologies to expand how users perceive and interact with space information.
 
-## Developing
+> “May your eyes see beyond what is possible for humans through LunaSearch VR. Immerse your eyes with LunaSearch.”
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Features
+- Interactive lunar data visualization powered by NASA datasets
+- Clean and responsive interface with dynamic visual interactions
+- AI-enhanced text-to-speech for guided exploration
+- Artistic and educational approach powered by multimedia design
 
-```sh
-npm run dev
+## Future Work
+- Immersive exploration through LunaSearch VR
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Technologies Used
 
-## Building
+### Frontend
+- Svelte
+- HTML5
+- CSS3
 
-To create a production version of your app:
+### Backend & Data Processing
+- Python (data processing)
+- PyTorch (deep learning)
+- CUDA (text and audio processing acceleration)
 
-```sh
-npm run build
-```
+### AI and Multimedia Integration
+- CSS10VITS (text-to-speech model)
+- PiramidTiles (3D spatial structuring)
+- Adobe After Effects
+- Illustrator
+- Photoshop
+- Premiere Pro
+- Audition
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
-# Front_datacosmos
-# Front_datacosmos
+## Team DataCosmos
+- María Isabel Rocha Vargas — Frontend Developer
+- Metzli Zhore Hernández Gallegos — Frontend Developer
+- José Adrián Rodríguez Gonzales — Data Analyst & Backend Developer
+- Esmeralda Abigail Ruiz Vázquez — Data Analyst & Backend Developer
+- Juan Francisco Salinas Villanueva — Data Analyst & Backend Developer
+- Andrea Jolette Guzmán — UI/UX Designer
