@@ -1,73 +1,73 @@
 <div class="background1">
 
-<h1>Acerca de la Luna</h1>
+<h1>About the Moon</h1>
 
 <p>
-  La Luna es mucho más que un brillo en el cielo nocturno.<br>
-  Es un <strong>satélite natural</strong> que ayuda a estabilizar nuestro clima y genera las <em>mareas</em> en los océanos.<br>
-  Con este proyecto, podemos observar sus características con mayor claridad y comprender sus misterios como nunca antes.<br>
-  Nuestro objetivo: <strong>entender la Luna</strong> a través de una proyección realista creada a partir de <em>millones de imágenes</em>.
+  The Moon is far more than just a glow in the night sky.<br>
+  It is a <strong>natural satellite</strong> that helps stabilize Earth's climate and generates the <em>tides</em> in our oceans.<br>
+  With this project, we can observe its features with unprecedented clarity and unravel its mysteries like never before.<br>
+  Our goal: <strong>to understand the Moon</strong> through a realistic visualization created from <em>millions of images</em>.
 </p>
 
 <hr>
 
-<h2>¿Cómo se formó la Luna?</h2>
+<h2>How Was the Moon Formed?</h2>
 <p>
-  Aunque su origen exacto sigue siendo un enigma,<br>
-  los científicos creen que nació tras una colisión <strong>catastrófica</strong>:<br>
-  un objeto celeste del tamaño de Marte impactó contra la Tierra primitiva,<br>
-  y los escombros resultantes se fusionaron en órbita para formar la Luna que hoy conocemos.
+  Although its exact origin remains an enigma,<br>
+  scientists believe it was born from a <strong>catastrophic</strong> collision:<br>
+  a Mars-sized celestial body struck the early Earth,<br>
+  and the resulting debris coalesced in orbit to form the Moon we know today.
 </p>
 
-<h2>Estructura interna de la Luna</h2>
+<h2>The Moon's Internal Structure</h2>
 <p>
-  La Luna tiene <strong>tres capas principales</strong>:<br>
-  <strong>• Corteza</strong><br>
-  <strong>• Manto</strong><br>
-  <strong>• Núcleo</strong>
-</p>
-
-<p>
-  Hace miles de millones de años, la Luna era un mundo completamente fundido.<br>
-  Al enfriarse, los materiales más densos —como el <em>hierro</em>— se hundieron hacia el centro,<br>
-  mientras que los más ligeros —como ciertas rocas silicatadas— flotaron hacia la superficie.<br>
-  El resultado: un <strong>núcleo sólido</strong>, un <strong>manto mayoritariamente sólido</strong> (con zonas parcialmente fundidas),<br>
-  y una <strong>corteza exterior delgada</strong>.
-</p>
-
-<h3>El núcleo lunar</h3>
-<p>
-  Compuesto por dos partes:<br>
-  – Un <strong>núcleo interno sólido</strong> de hierro.<br>
-  – Un <strong>núcleo externo líquido</strong> que también contiene níquel y azufre.
-</p>
-
-<h3>El manto lunar</h3>
-<p>
-  Es la capa más gruesa de la Luna.<br>
-  Aunque es principalmente sólido, la región cercana al núcleo está <em>parcialmente fundida</em>,<br>
-  y es allí donde pueden originarse algunos <strong>sismos lunares</strong>.<br>
-  Está formado principalmente por <em>basalto rico en olivino y piroxeno</em>.
-</p>
-
-<h3>La corteza lunar</h3>
-<p>
-  ¡No es uniforme!<br>
-  – En el <strong>lado oculto</strong>: aproximadamente 60 km de grosor.<br>
-  – En el <strong>lado visible</strong>: solo unos 40 km.<br>
-  Los científicos aún investigan por qué existe esta diferencia tan marcada.
+  The Moon has <strong>three main layers</strong>:<br>
+  <strong>• Crust</strong><br>
+  <strong>• Mantle</strong><br>
+  <strong>• Core</strong>
 </p>
 
 <p>
-  Su composición incluye:<br>
-  <em>oxígeno, silicio, magnesio, hierro, calcio y aluminio</em>,<br>
-  junto con trazas de <em>titanio, uranio, torio, potasio e hidrógeno</em>.
+  Billions of years ago, the Moon was an entirely molten world.<br>
+  As it cooled, denser materials—such as <em>iron</em>—sank toward the center,<br>
+  while lighter materials—like certain silicate rocks—rose to the surface.<br>
+  The result: a <strong>solid inner core</strong>, a <strong>mostly solid mantle</strong> (with partially molten regions),<br>
+  and a <strong>thin outer crust</strong>.
+</p>
+
+<h3>The Lunar Core</h3>
+<p>
+  Composed of two parts:<br>
+  – A <strong>solid inner core</strong> made of iron.<br>
+  – A <strong>liquid outer core</strong> also containing nickel and sulfur.
+</p>
+
+<h3>The Lunar Mantle</h3>
+<p>
+  This is the Moon's thickest layer.<br>
+  Although primarily solid, the region near the core is <em>partially molten</em>,<br>
+  and it is here that some <strong>moonquakes</strong> may originate.<br>
+  It is mainly composed of <em>basalt rich in olivine and pyroxene</em>.
+</p>
+
+<h3>The Lunar Crust</h3>
+<p>
+  It’s not uniform!<br>
+  – On the <strong>far side</strong>: approximately 60 km thick.<br>
+  – On the <strong>near side</strong>: only about 40 km thick.<br>
+  Scientists are still investigating why this striking difference exists.
 </p>
 
 <p>
-  Las zonas elevadas y brillantes (tierras altas) son ricas en <strong>calcio y aluminio</strong>,<br>
-  mientras que las regiones oscuras y planas —los llamados <em>mares lunares</em>—<br>
-  contienen mayores cantidades de <strong>hierro y titanio</strong>.
+  Its composition includes:<br>
+  <em>oxygen, silicon, magnesium, iron, calcium, and aluminum</em>,<br>
+  along with traces of <em>titanium, uranium, thorium, potassium, and hydrogen</em>.
+</p>
+
+<p>
+  The bright, elevated regions (highlands) are rich in <strong>calcium and aluminum</strong>,<br>
+  whereas the dark, flat areas—known as <em>lunar maria</em>—<br>
+  contain higher amounts of <strong>iron and titanium</strong>.
 </p>
 </div>
 <style>
@@ -78,21 +78,18 @@
     background-attachment: fixed;
     min-height: 100vh;
     padding: 2rem;
-
-
 }
 
-
-  .background1 p {
+.background1 p {
     color: white;
     line-height: 1.6;
     margin-bottom: 1.2rem;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-  }
-    .background1 h1 {
+}
+
+.background1 h1 {
     color: white;
     margin-bottom: 1.2rem;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-  }
-
+}
 </style>

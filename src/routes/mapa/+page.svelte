@@ -1,5 +1,8 @@
-<div class="pagina-fondo"></div>
-
+<script lang="ts">
+  import CesiumViewer from "../../components/CesiumViewer.svelte"
+</script>
+<div class="pagina-fondo">
+</div>
 <style>
 .background {
   position: fixed;
@@ -14,3 +17,6 @@
   display: flex;
 }
 </style>
+<main>
+  <CesiumViewer />
+</main>
