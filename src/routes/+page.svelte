@@ -1,5 +1,4 @@
-<script>
-  import Inicio from '$lib/components/main.svelte';
+<script lang="ts">
+    import Main from "./main.svelte";
 </script>
-
-<Inicio />
+<Main></Main>
