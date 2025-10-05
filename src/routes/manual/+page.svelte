@@ -1,11 +1,12 @@
-<main class="p-6 text-center">
-  <h1 class="text-3xl font-bold mb-4 text-purple-700">¡Hola desde la segunda página!</h1>
-  <p class="mb-4">Aquí puedes colocar contenido adicional, imágenes, texto, etc.</p>
+<div class="pagina-fondo"></div>
 
-  <a 
-    href="/"
-    class="bg-gray-200 hover:bg-gray-300 text-gray-800 py-2 px-4 rounded-lg inline-block"
-  >
-    Volver al inicio
-  </a>
-</main>
+<style>
+    .pagina-fondo {
+        background-image: url("/Fondos/lunapagina2.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        width: 100%;
+    }
+</style>
