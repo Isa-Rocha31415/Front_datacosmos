@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <script>
   import NavButton from '../components/boton.svelte';
@@ -13,3 +14,10 @@
     color="blue"
   />
 </div>
+=======
+<script>
+  import Inicio from '$lib/components/main.svelte';
+</script>
+
+<Inicio />
+>>>>>>> 778d8e401b9dcc6c0a09a0f96c0537b593676b5e

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <script lang="ts">
   import Main from "../components/Main.svelte";
   import NavButton from '../components/boton.svelte';
@@ -20,3 +21,6 @@
     text-align: center;
   }
 </style>
+=======
+
+>>>>>>> 778d8e401b9dcc6c0a09a0f96c0537b593676b5e
