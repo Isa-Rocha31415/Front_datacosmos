@@ -1,3 +1,16 @@
+<div class="pagina-fondo"></div>
+
+<style>
+    .pagina-fondo {
+        background-image: url("/Fondos/lunapagina2.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        width: 100%;
+        opacity: 0.9;
+    }
+</style>
 <h1>Manual de usuario</h1>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quia eum laudantium debitis repellendus ullam accusamus soluta voluptate? Nobis architecto totam animi molestiae unde, eius accusantium iure quod eveniet quis!
 Temporibus natus inventore blanditiis distinctio corrupti repellendus nobis rem dolor nesciunt cum labore expedita consectetur quas voluptas, quam dolore? Maxime, itaque. Illo amet, enim cupiditate accusantium magnam porro dolores modi.
