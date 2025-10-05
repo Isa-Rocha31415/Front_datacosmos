@@ -21,9 +21,13 @@ Cesium.Ellipsoid.default = Cesium.Ellipsoid.MOON;
       imageryProvider: undefined,   // <-- disable default Earth imagery
       baseLayerPicker: false,
       terrainProvider: new Cesium.EllipsoidTerrainProvider({ ellipsoid: moonEllipsoid }),
+      geocoder: false,
+      sceneModePicker: false,
+         
     });
 
-  
+   const tileset = await Cesium.Cesium3DTileset.fromIonAssetId(2684829);
+    viewer.scene.primitives.add(tileset);
 
     const northPoleRect = [
       Cesium.Rectangle.fromDegrees(-180, 60, -90, 90),
