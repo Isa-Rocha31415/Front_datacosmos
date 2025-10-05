@@ -17,6 +17,4 @@
   display: flex;
 }
 </style>
-<main>
-  <CesiumViewer />
-</main>
+<Cesium/>
