@@ -1,16 +1,22 @@
 <script>
 	import icon from '$lib/assets/icon.png';
-  	import Header from '$lib/components/header.svelte';
+  import Header from '$lib/components/header.svelte';
+  import Footer from '$lib/components/footer.svelte';
 </script>
-<div class="abstract-top"></div>
-<svelte:head>
-  <link rel="icon" href={icon} />
-</svelte:head>
 
+<div class="layout">
+  <Header />
+  <main><slot /></main>
+  <Footer />
+</div>
 
-<Header />
-
-<slot />
-<style global>
-  @import '../app.css';
+<style>
+  .layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  main {
+    flex: 1;
+  }
 </style>
