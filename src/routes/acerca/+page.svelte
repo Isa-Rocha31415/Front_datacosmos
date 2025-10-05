@@ -1,3 +1,5 @@
+<div class="background1">
+
 <h1>Acerca de la Luna</h1>
 
 <p>
@@ -67,3 +69,30 @@
   mientras que las regiones oscuras y planas —los llamados <em>mares lunares</em>—<br>
   contienen mayores cantidades de <strong>hierro y titanio</strong>.
 </p>
+</div>
+<style>
+.background1 {
+    background-image: url('./Fondos/lunapagina2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 2rem;
+
+
+}
+
+
+  .background1 p {
+    color: white;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  }
+    .background1 h1 {
+    color: white;
+    margin-bottom: 1.2rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  }
+
+</style>
