@@ -50,7 +50,7 @@ LunaSearchDataCosmos provides an intuitive web interface that visualizes lunar d
 ## Team DataCosmos
 - María Isabel Rocha Vargas — Frontend Developer
 - Metzli Zhore Hernández Gallegos — Frontend Developer
-- José Adrián Rodríguez Gonzales — Data Analyst & Backend Developer
+- José Adrián Rodríguez González — Data Analyst & Backend Developer
 - Esmeralda Abigail Ruiz Vázquez — Data Analyst & Backend Developer
 - Juan Francisco Salinas Villanueva — Data Analyst & Backend Developer
 - Andrea Jolette Guzmán — UI/UX Designer
