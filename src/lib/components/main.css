@@ -1,11 +1,59 @@
 .background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+}
+
+.left-block {
+  display: flex;
+  justify-content: center;   /* Centra horizontalmente */
+  align-items: center;       /* Centra verticalmente */
+  flex: 1;
+}
+
+.luna-container {
+  position: fixed; /* Para que no afecte el flujo normal y pueda salir del contenedor */
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  z-index: -1; /* Para que quede detrás del contenido, como fondo */
+}
+
+.luna {
+  width: 50vw; /* Ajusta según necesidad, puedes probar 50vw, 60vw... */
+  height: auto; /* Mantiene proporción */
+  max-width: 100%; /* Evita que se desborde en pantallas pequeñas */
+  max-height: 180vh; /* Limita altura máxima para que no ocupe toda la pantalla */
+  object-fit: contain; /* Mantiene proporción sin recortar */
+  margin-bottom: 0; /* Elimina margen inferior si lo tienes */
+  display: block; /* Evita espacios extra debajo de la imagen */
+}
+
+@media (max-width: 768px) {
+  .luna {
+    width: 60vw;
+    max-height: 40vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .luna {
+    width: 70vw;
+    max-height: 30vh;
+  }
+}
+
+.right-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex: 1;
 }
