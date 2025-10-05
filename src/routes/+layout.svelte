@@ -8,4 +8,4 @@
 	<link rel="icon" type="image/png" href={favicon} />
 </svelte:head>
 
-{@render children?.()}
+<slot />

@@ -1,0 +1,27 @@
+
+  .nav-button {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .blue { 
+    background-color: #3b82f6; 
+    color: white; 
+  }
+  .blue:hover { 
+    background-color: #2563eb; 
+    transform: translateY(-2px);
+  }
+
+ 
+
+  
