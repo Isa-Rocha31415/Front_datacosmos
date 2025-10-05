@@ -4,7 +4,6 @@
 
 <div class="background" style="background-image: url({f1});"></div>
 
-
 <style>
 .background {
     position: fixed;
