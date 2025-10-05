@@ -1,6 +1,7 @@
-# LunaSearchDataCosmos
+# LunaSearch
 **Dive into the Moon's data**
 
+## Team : DataCosmos
 ### Challenge: *Embiggen Your Eyes!*
 
 ## Overview
